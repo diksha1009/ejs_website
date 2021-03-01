@@ -1,0 +1,17 @@
+<%- include('partials/header'); -%>
+
+
+<form action="/compose" method="POST">
+    <div class="flex-container">
+    <h1>Compose</h1>
+    <label for="title">Title</label><br>
+    <input class="fill-width" type="text" name="postTitle" id="text"><br>
+    <label for="Posting">Post</label><br>
+    
+    <textarea name="postBody" id="textBody" cols="30" rows="5"></textarea>
+    <button class="btn" type="submit">Publish</button>
+</div>
+</form>
+
+
+<%- include('partials/footer'); -%>
